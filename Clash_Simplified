@@ -1,9 +1,11 @@
 surge_ruleset=☁️ Proxy,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
+
 surge_ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
 surge_ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
 surge_ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
 surge_ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
 surge_ruleset=DIRECT,[]GEOIP,CN
+
 custom_proxy_group=☁️ Proxy`select`[]✏️ Select`[]🇭🇰 Hong Kong`[]🇨🇳 Taiwan`[]🇸🇬 Singapore`[]🇯🇵 Japan`[]🇺🇲 United States`
 custom_proxy_group=✏️ Select`select`.*
 custom_proxy_group=🇭🇰 Hong Kong`url-test`(🇭🇰)`http://cp.cloudflare.com`300,,50
@@ -11,6 +13,7 @@ custom_proxy_group=🇨🇳 Taiwan`url-test`(🇨🇳)`http://cp.cloudflare.com`
 custom_proxy_group=🇸🇬 Singapore`url-test`(🇸🇬)`http://cp.cloudflare.com`300,,50
 custom_proxy_group=🇯🇵 Japan`url-test`(🇯🇵)`http://cp.cloudflare.com`300,,50
 custom_proxy_group=🇺🇲 United States`url-test`(🇺🇲)`http://cp.cloudflare.com`300,,100
+
 enable_rule_generator=true
 overwrite_original_rules=true
 add_emoji=true
@@ -18,7 +21,9 @@ remove_old_emoji=true
 skip_cert_verify_flag=true
 clash_use_new_field_name=true
 write_managed_config=flase
+
 exclude_remarks=(续费|重置|推广|官网|网址|防失联|佣金|IPV6接入|TG群|到期|Update|Traffic|网易云音乐|下载专用|其他用途|随机|官址|官 网|剩余流量|套餐|更新订阅|更新一次订阅|不一定|勒索|懒人节点|通告|均为二手倒卖|重大漏洞|公告|已恢复|炸了|Expire|00.00|时间|Panel|用户群|学术|500 GB|1000 GB|GooglePlay|emby|ednovas)
+
 emoji=(香港|广港游戏|亚服游戏|亚服防失联|中港|深港IEPL|广港游戏|广港-原生|深港专线 ⁴ˣ|倍-广港|广港0|莞港|海港|苏港|湘港|深港 游戏|杨港|安港|永久虚通路连接|HK|Hong Kong),🇭🇰
 emoji=(台湾|台灣|台北|台中|新北|彰化|深港专线转台湾|冀台|沪台|浙台|深台|湘台|珠台|苏台|闽台|广台|回国|TW|Taiwan),🇨🇳
 emoji=(新加坡|狮城|獅城|广新|浙新|杨新|安新|海新|SG|Singapore),🇸🇬
