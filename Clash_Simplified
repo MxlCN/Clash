@@ -1,21 +1,18 @@
-[custom]
 surge_ruleset=☁️ Proxy,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
 surge_ruleset=🌊 DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
 surge_ruleset=🌊 DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
 surge_ruleset=🌊 DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
 surge_ruleset=🌊 DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
 surge_ruleset=🌊 DIRECT,[]GEOIP,CN
-surge_ruleset=💫 Final,[]FINAL
 custom_proxy_group=☁️ Proxy`select`[]⚡️ Auto`[]✏️ Select`[]🇭🇰 Hong Kong`[]🇨🇳 Taiwan`[]🇸🇬 Singapore`[]🇯🇵 Japan`[]🇺🇲 United States`[]DIRECT
 custom_proxy_group=✏️ Select`select`.*
 custom_proxy_group=⚡️ Auto`url-test`.*`http://cp.cloudflare.com`300
 custom_proxy_group=🌊 DIRECT`select`[]DIRECT`[]☁️ Proxy`[]⚡️ Auto`[]✏️ Select
-custom_proxy_group=💫 Final`select`[]☁️ Proxy`[]⚡️ Auto`[]DIRECT`[]🇭🇰 Hong Kong`[]🇨🇳 Taiwan`[]🇸🇬 Singapore`[]🇯🇵 Japan`[]🇺🇲 United States`[]✏️ Select
-custom_proxy_group=🇭🇰 Hong Kong`url-test`(🇭🇰|香港|HK|Hong Kong)`http://cp.cloudflare.com`300,,50
-custom_proxy_group=🇨🇳 Taiwan`url-test`(🇨🇳|🇹🇼|台湾|台灣|新北|彰化|TW|Taiwan)`http://cp.cloudflare.com`300,,50
-custom_proxy_group=🇸🇬 Singapore`url-test`(🇸🇬|新加坡|狮城|SG|Singapore)`http://cp.cloudflare.com`300,,50
-custom_proxy_group=🇯🇵 Japan`url-test`(🇯🇵|日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan)`http://cp.cloudflare.com`300,,50
-custom_proxy_group=🇺🇲 United States`url-test`(🇺🇲|美国|美國|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)`http://cp.cloudflare.com`300,,150
+custom_proxy_group=🇭🇰 Hong Kong`url-test`(🇭🇰)`http://cp.cloudflare.com`300,,50
+custom_proxy_group=🇨🇳 Taiwan`url-test`(🇨🇳)`http://cp.cloudflare.com`300,,50
+custom_proxy_group=🇸🇬 Singapore`url-test`(🇸🇬)`http://cp.cloudflare.com`300,,50
+custom_proxy_group=🇯🇵 Japan`url-test`(🇯🇵)`http://cp.cloudflare.com`300,,50
+custom_proxy_group=🇺🇲 United States`url-test`(🇺🇲)`http://cp.cloudflare.com`300,,100
 enable_rule_generator=true
 overwrite_original_rules=true
 add_emoji=true
