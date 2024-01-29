@@ -8,11 +8,11 @@ surge_ruleset=🎈 其余,[]FINAL
 
 custom_proxy_group=☁️ 代理`select`[]✏️ 选择`[]🇭🇰 香港`[]🇨🇳 台湾`[]🇸🇬 狮城`[]🇯🇵 日本`[]🇺🇲 美国`
 custom_proxy_group=✏️ 选择`select`.*
-custom_proxy_group=🇭🇰 香港`url-test`(🇭🇰)`http://cp.cloudflare.com`300,,50
-custom_proxy_group=🇨🇳 台湾`url-test`(🇨🇳)`http://cp.cloudflare.com`300,,50
-custom_proxy_group=🇸🇬 狮城`url-test`(🇸🇬)`http://cp.cloudflare.com`300,,50
-custom_proxy_group=🇯🇵 日本`url-test`(🇯🇵)`http://cp.cloudflare.com`300,,50
-custom_proxy_group=🇺🇲 美国`url-test`(🇺🇲)`http://cp.cloudflare.com`300,,100
+custom_proxy_group=🇭🇰 香港`url-test`(🇭🇰)`http://1.1.1.1`300,,50
+custom_proxy_group=🇨🇳 台湾`url-test`(🇨🇳)`http://1.1.1.1`300,,50
+custom_proxy_group=🇸🇬 狮城`url-test`(🇸🇬)`http://1.1.1.1`300,,50
+custom_proxy_group=🇯🇵 日本`url-test`(🇯🇵)`http://1.1.1.1`300,,50
+custom_proxy_group=🇺🇲 美国`url-test`(🇺🇲)`http://1.1.1.1`300,,100
 custom_proxy_group=🎈 其余`select`[]☁️ 代理`[]DIRECT
 
 enable_rule_generator=true
@@ -23,7 +23,7 @@ skip_cert_verify_flag=true
 clash_use_new_field_name=true
 write_managed_config=flase
 
-exclude_remarks=(续费|重置|推广|佣金|IPV6接入|TG群|到期|Update|Traffic|剩余流量|更新订阅|更新一次订阅|不一定|勒索|通告|均为二手倒卖|重大漏洞|公告|已恢复|炸了|Expire|时间|Panel|用户群|学术|500 GB|1000 GB|登录|面板|计划|全局代理)
+exclude_remarks=(续费|重置|推广|佣金|IPV6接入|TG群|到期|Update|Traffic|更新订阅|更新一次订阅|不一定|勒索|通告|均为二手倒卖|重大漏洞|公告|已恢复|炸了|Expire|时间|Panel|用户群|学术|登录|面板|计划|全局代理)
 
 emoji=(香港|亚服游戏|亚服防失联|中港|深港IEPL|深港专线 ⁴ˣ|广港|莞港|海港|苏港|湘港|深港 游戏|杨港|安港|永久虚通路连接|AnyPath®|HK|Hong Kong|HongKong),🇭🇰
 emoji=(台湾|台灣|台北|台中|新北|彰化|深港专线转台湾|冀台|沪台|浙台|深台|湘台|珠台|苏台|闽台|广台|回国|TW|Taiwan),🇨🇳
