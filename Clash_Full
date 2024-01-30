@@ -36,7 +36,7 @@ custom_proxy_group=Ⓜ️ Microsoft`select`[]☁️ Proxy`[]🇺🇲 United Stat
 custom_proxy_group=🍎 Apple`select`[]☁️ Proxy`[]🇺🇲 United States`[]🇭🇰 Hong Kong`[]🇨🇳 Taiwan`[]🇸🇬 Singapore`[]🇯🇵 Japan`[]⚓ Select`[]DIRECT
 custom_proxy_group=🎮 Game`select`[]☁️ Proxy`[]🇺🇲 United States`[]🇭🇰 Hong Kong`[]🇨🇳 Taiwan`[]🇸🇬 Singapore`[]🇯🇵 Japan`[]⚓ Select`[]DIRECT`.*
 custom_proxy_group=🎧 NeteaseMusic`select`[]DIRECT`[]☁️ Proxy`[]🚩 Auto`(网易|音乐|解锁|Music|NetEase)
-custom_proxy_group=🎥 Netflix`select`[]🎥 Netflix`[]☁️ Proxy`[]🚩 Auto`[]🇸🇬 Singapore`[]🇭🇰 Hong Kong`[]🇨🇳 Taiwan`[]🇯🇵 Japan`[]🇺🇲 United States`[]⚓ Select`[]DIRECT
+custom_proxy_group=🎥 Netflix`select`[]☁️ Proxy`[]🚩 Auto`[]🇸🇬 Singapore`[]🇭🇰 Hong Kong`[]🇨🇳 Taiwan`[]🇯🇵 Japan`[]🇺🇲 United States`[]⚓ Select`[]DIRECT
 custom_proxy_group=📺 Bahamut`select`[]🇨🇳 Taiwan`[]☁️ Proxy`[]⚓ Select`[]DIRECT
 custom_proxy_group=📹 Youtube`select`[]☁️ Proxy`[]🚩 Auto`[]🇸🇬 Singapore`[]🇭🇰 Hong Kong`[]🇨🇳 Taiwan`[]🇯🇵 Japan`[]🇺🇲 United States`[]⚓ Select`[]DIRECT
 custom_proxy_group=🌍 ForeignMedia`select`[]DIRECT`[]🇭🇰 Hong Kong`[]🇨🇳 Taiwan`[]🇸🇬 Singapore`[]🇯🇵 Japan`[]⚓ Select`.*
@@ -46,7 +46,7 @@ custom_proxy_group=🇨🇳 Taiwan`url-test`(🇨🇳)`http://1.1.1.1`300,,50
 custom_proxy_group=🇸🇬 Singapore`url-test`(🇸🇬)`http://1.1.1.1`300,,50
 custom_proxy_group=🇯🇵 Japan`url-test`(🇯🇵)`http://1.1.1.1`300,,50
 custom_proxy_group=🇺🇲 United States`url-test`(🇺🇲)`1.1.1.1`300,,100
-custom_proxy_group=🎥 Netflix`select`(NF|奈飞|解锁|Netflix|NETFLIX|Media|📺)
+
 
 enable_rule_generator=true
 overwrite_original_rules=true
