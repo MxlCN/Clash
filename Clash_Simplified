@@ -1,19 +1,19 @@
-surge_ruleset=☁️ 代理,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
+surge_ruleset=☁️ Proxy,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
 surge_ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
 surge_ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
 surge_ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
 surge_ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
 surge_ruleset=DIRECT,[]GEOIP,CN
-surge_ruleset=🎈 其余,[]FINAL
+surge_ruleset=🎈 Other,[]FINAL
 
-custom_proxy_group=☁️ 代理`select`[]✏️ 选择`[]🇭🇰 香港`[]🇨🇳 台湾`[]🇸🇬 狮城`[]🇯🇵 日本`[]🇺🇲 美国`
-custom_proxy_group=✏️ 选择`select`.*
-custom_proxy_group=🇭🇰 香港`url-test`(🇭🇰)`http://1.1.1.1`300,,50
-custom_proxy_group=🇨🇳 台湾`url-test`(🇨🇳)`http://1.1.1.1`300,,50
-custom_proxy_group=🇸🇬 狮城`url-test`(🇸🇬)`http://1.1.1.1`300,,50
-custom_proxy_group=🇯🇵 日本`url-test`(🇯🇵)`http://1.1.1.1`300,,50
-custom_proxy_group=🇺🇲 美国`url-test`(🇺🇲)`http://1.1.1.1`300,,100
-custom_proxy_group=🎈 其余`select`[]☁️ 代理`[]DIRECT
+custom_proxy_group=☁️ Proxy`select`[]✏️ Selecct`[]🇭🇰 HK`[]🇨🇳 TW`[]🇸🇬 SG`[]🇯🇵 JP`[]🇺🇲 US`
+custom_proxy_group=✏️ Select`select`.*
+custom_proxy_group=🇭🇰 HK`url-test`(🇭🇰)`http://1.1.1.1`300,,50
+custom_proxy_group=🇨🇳 TW`url-test`(🇨🇳)`http://1.1.1.1`300,,50
+custom_proxy_group=🇸🇬 SG`url-test`(🇸🇬)`http://1.1.1.1`300,,50
+custom_proxy_group=🇯🇵 JP`url-test`(🇯🇵)`http://1.1.1.1`300,,50
+custom_proxy_group=🇺🇲 US`url-test`(🇺🇲)`http://1.1.1.1`300,,100
+custom_proxy_group=🎈 Other`select`[]☁️ Proxy`[]DIRECT
 
 enable_rule_generator=true
 overwrite_original_rules=true
