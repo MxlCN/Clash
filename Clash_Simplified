@@ -6,13 +6,14 @@ surge_ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Cl
 surge_ruleset=DIRECT,[]GEOIP,CN
 surge_ruleset=🎈,[]FINAL
 
-custom_proxy_group=☁️`select`[]✏️`[]🇭🇰`[]🇨🇳`[]🇸🇬`[]🇯🇵`[]🇺🇲`
+custom_proxy_group=☁️`select`[]🏅`[]✏️`[]🇭🇰`[]🇨🇳`[]🇸🇬`[]🇯🇵`[]🇺🇲`
 custom_proxy_group=✏️`select`.*
 custom_proxy_group=🇭🇰`url-test`(🇭🇰)`http://1.1.1.1`300,,50
 custom_proxy_group=🇨🇳`url-test`(🇨🇳)`http://1.1.1.1`300,,50
 custom_proxy_group=🇸🇬`url-test`(🇸🇬)`http://1.1.1.1`300,,50
 custom_proxy_group=🇯🇵`url-test`(🇯🇵)`http://1.1.1.1`300,,50
 custom_proxy_group=🇺🇲`url-test`(🇺🇲)`http://1.1.1.1`300,,100
+custom_proxy_group=🏅`url-test`.*`http://1.1.1.1`300
 custom_proxy_group=🎈`select`[]☁️`[]DIRECT
 
 enable_rule_generator=true
