@@ -23,6 +23,7 @@ remove_old_emoji=true
 skip_cert_verify_flag=true
 clash_use_new_field_name=true
 write_managed_config=flase
+udp_flag=false
 
 exclude_remarks=(续费|重置|推广|佣金|IPV6接入|TG群|到期|Update|Traffic|更新订阅|更新一次订阅|不一定|勒索|通告|均为二手倒卖|重大漏洞|公告|已恢复|炸了|Expire|时间|Panel|用户群|学术|登录|面板|计划|全局代理)
 
