@@ -11,7 +11,6 @@ custom_proxy_group=✏️ 手动选择`select`.*
 custom_proxy_group=⚡ 自动选择`url-test`.*`http://www.gstatic.com/generate_204`300
 custom_proxy_group=🎈 其余流量`select`[]☁️ 代理选择`[]DIRECT
 
-
 enable_rule_generator=true
 overwrite_original_rules=true
 add_emoji=true
@@ -54,7 +53,7 @@ emoji=(巴哈马|Bahamas),🇧🇸
 emoji=(不丹|Bhutan),🇧🇹
 emoji=(白俄罗斯|Belarus),🇧🇾
 emoji=(伯利兹|Bolize),🇧🇿
-emoji=(加拿大|蒙特利尔|温哥华|CA|Canada),🇨🇦
+emoji=(加拿大|蒙特利尔|温哥华|Montréal|Toronto|CA|Canada),🇨🇦
 emoji=(瑞士|Switzerland),🇨🇭
 emoji=(智利|Chile),🇨🇱
 emoji=(哥伦比亚|圣地亚哥|Colombia),🇨🇴
