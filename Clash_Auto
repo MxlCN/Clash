@@ -1,6 +1,6 @@
-ruleset=☁️,[]DOMAIN-SUFFIX,xn--ngstr-lra8j.com
-ruleset=☁️,[]DOMAIN-SUFFIX,services.googleapis.cn
-ruleset=☁️,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleCNProxyIP.list
+ruleset=☁️ 代理选择,[]DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+ruleset=☁️ 代理选择,[]DOMAIN-SUFFIX,services.googleapis.cn
+ruleset=☁️ 代理选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleCNProxyIP.list
 ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
 ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
 ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
@@ -10,7 +10,7 @@ ruleset=REJECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ba
 ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
 ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
 ruleset=DIRECT,[]GEOIP,CN,no-resolve
-ruleset=🎈,[]FINAL
+ruleset=🎈 其余流量,[]FINAL
 
 custom_proxy_group=☁️ 代理选择`select`[]⚡ 自动选择`[]✏️ 手动选择`
 custom_proxy_group=✏️ 手动选择`select`.*
