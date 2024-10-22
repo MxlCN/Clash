@@ -1,6 +1,6 @@
-ruleset=☁️,[]DOMAIN-SUFFIX,xn--ngstr-lra8j.com
-ruleset=☁️,[]DOMAIN-SUFFIX,services.googleapis.cn
-ruleset=☁️,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleCNProxyIP.list
+ruleset=☁️ Proxy,[]DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+ruleset=☁️ Proxy,[]DOMAIN-SUFFIX,services.googleapis.cn
+ruleset=☁️ Proxy,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleCNProxyIP.list
 ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
 ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
 ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
@@ -10,13 +10,14 @@ ruleset=REJECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ba
 ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
 ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
 ruleset=DIRECT,[]GEOIP,CN,no-resolve
-ruleset=🎈,[]FINAL
+ruleset=🎈 Final,[]FINAL
 
-custom_proxy_group=☁️`select`[]🔮`[]⚡`[]✏️`
-custom_proxy_group=✏️`select`.*
-custom_proxy_group=⚡`url-test`.*`http://www.gstatic.com/generate_204`300
-custom_proxy_group=🔮`load-balance`.*`http://www.gstatic.com/generate_204`300,,50
-custom_proxy_group=🎈`select`[]☁️`[]DIRECT
+custom_proxy_group=☁️ Proxy`select`[]🔮 Load Balance`[]⚡ Auto`[]✏️ Select`
+custom_proxy_group=✏️ Select`select`.*
+custom_proxy_group=⚡ Auto`url-test`.*`http://www.gstatic.com/generate_204`300
+custom_proxy_group=🔮 Load Balance`load-balance`.*`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🎈 Final`select`[]☁️ Proxy`[]DIRECT
+
 
 enable_rule_generator=true
 overwrite_original_rules=true
