@@ -206,4 +206,4 @@ rename=.*(斯威士兰|Eswatini|Swaziland).*@🇸🇿 斯威士兰 | Eswatini
 rename=.*(坦桑尼亚|Tanzania).*@🇹🇿 坦桑尼亚 | Tanzania
 rename=.*(欧洲|EU|Europe).*@🇪🇺 欧洲 | Europe
 rename=.*(CF).*@🏴‍☠️ 官方优选 | Official
-rename=.*(TG).*@🏴‍☠️ 未知节点 | Unknown
+rename=.*(TG).*@🏴‍☠️ 未知地区 | Unknown
