@@ -206,3 +206,4 @@ rename=.*(斯威士兰|Eswatini|Swaziland).*@🇸🇿 斯威士兰 | SWZ
 rename=.*(坦桑尼亚|Tanzania).*@🇹🇿 坦桑尼亚 | TZA
 rename=.*(CF).*@🏴‍☠️ 官方优选 | Official
 rename=.*(TG).*@🏴‍☠️ 随机地区 | Unknown
+rename=^1.*@🏴‍☠️ 随机地区 | Unknown
