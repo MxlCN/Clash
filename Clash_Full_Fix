@@ -82,7 +82,7 @@ rename=.*(厄瓜多尔|Ecuador).*@🇪🇨 厄瓜多尔 | ECU
 rename=.*(爱沙尼亚|Estonia).*@🇪🇪 爱沙尼亚 | EST
 rename=.*(埃及|开罗|EGP|Egypt).*@🇪🇬 埃及 | EGY
 rename=.*(西班牙|马德里|ESP|Madrid|Spain).*@🇪🇸 西班牙 | ESP
-rename=.*(芬兰|芬蘭|Finland).*@🇫🇮 芬兰 | FIN
+rename=.*(芬兰|芬蘭|Finland|FL).*@🇫🇮 芬兰 | FIN
 rename=.*(法国|巴黎|Marseille|CDG|Paris|FR|France).*@🇫🇷 法国 | FRA
 rename=.*(英国|英|伦敦|UK|GB|LHR|London|England|Britain|Kingdom).*@🇬🇧 英国 | GBR
 rename=.*(格鲁吉亚|Georgia).*@🇬🇪 格鲁吉亚 | GEO
@@ -204,6 +204,6 @@ rename=.*(莫桑比克|Mozambique).*@🇲🇿 莫桑比克 | MOZ
 rename=.*(科特迪瓦|Côte d'Ivoire|Ivory Coast).*@🇨🇮 科特迪瓦 | CIV
 rename=.*(斯威士兰|Eswatini|Swaziland).*@🇸🇿 斯威士兰 | SWZ
 rename=.*(坦桑尼亚|Tanzania).*@🇹🇿 坦桑尼亚 | TZA
-rename=^[a-z0-9T].*@🏴‍☠️ 未知地区 | Unknown
-rename=.*(节点|防丢).*@🏴‍☠️ 未知地区 | Unknown
+rename=^[a-z0-9].*@🏴‍☠️ 未知地区 | Unknown
+rename=.*(节点|防丢|TG).*@🏴‍☠️ 未知地区 | Unknown
 
