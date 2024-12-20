@@ -204,5 +204,6 @@ rename=.*(莫桑比克|Mozambique).*@🇲🇿 莫桑比克 | MOZ
 rename=.*(科特迪瓦|Côte d'Ivoire|Ivory Coast).*@🇨🇮 科特迪瓦 | CIV
 rename=.*(斯威士兰|Eswatini|Swaziland).*@🇸🇿 斯威士兰 | SWZ
 rename=.*(坦桑尼亚|Tanzania).*@🇹🇿 坦桑尼亚 | TZA
-rename=^[a-zA-Z0-9](?!.*⚫︎).*@🏴‍☠️ 未知地区 | Unknown
+rename=^[a-z0-9T].*@🏴‍☠️ 未知地区 | Unknown
 rename=.*(节点|防丢).*@🏴‍☠️ 未知地区 | Unknown
+
