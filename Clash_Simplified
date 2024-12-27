@@ -36,9 +36,9 @@ exclude_remarks=(续费|重置|推广|佣金|IPV6接入|TG群|到期|Update|Traf
 
 emoji=(新加坡|[狮獅]城|新坡|广新|浙新|杨新|安新|海新|SG|sg|SINGAPORE|Singapore),🇸🇬
 emoji=(香港|亚服游戏|亚服防失联|中港|深港IEPL|深港专线 ⁴ˣ|广港|莞港|海港|苏港|湘港|杨港|安港|永久虚通路连接|港鱼蛋粉|港鸡蛋仔|AnyPath®|HK|hk|HONG KONG|Hong Kong|HONGKONG|Hongkong|HongKong),🇭🇰
+emoji=(台湾|台灣|台北|台中|新北|彰化|深港专线转台湾|冀台|沪台|浙台|深台|湘台|珠台|苏台|闽台|广台|回国|Taipei|Kaohsiung|TW|TPE|Taiwan|TAIPEI|TAIWAN|Tai Wan|Tai wan),🇨🇳
 emoji=(美[国國]|广美|美西|华盛顿|波特兰|达拉斯|俄勒冈|凤凰城|菲尼克斯|费利蒙|弗里蒙特|硅谷|旧金山|弗吉尼亚|拉斯维加斯|洛杉|圣何塞|圣荷西|圣塔?克拉拉|西雅图|芝加哥|哥伦布|纽约|阿什本|丹佛|加利福尼亚|us|UNITED STATES|SEA|EWR|Newark|SJC|LAX|CMH|SANJOSE|Washington|Portland|Dallas|Oregon|Phoenix|Fremont|Valley|Francisco|Vegas|Los[^a-z]*Angeles|San[^a-z]*Jose|Santa[^a-z]*Clara|Seattle|Chicago|Columbus|York|Ashburn|US|UNITEDSTATES|United States),🇺🇲
 emoji=(日本|日-本|东京|大阪|埼玉|名古屋|沪日|日服|广日|杭日|京日|JP|jp|TOKYO|Tokyo|Osaka|Fukuoka|Nagoya|JAPAN|KIX|Saitama|Japan),🇯🇵
-emoji=(台湾|台灣|台北|台中|新北|彰化|深港专线转台湾|冀台|沪台|浙台|深台|湘台|珠台|苏台|闽台|广台|回国|Taipei|Kaohsiung|TW|TPE|Taiwan|TAIPEI|TAIWAN|Tai Wan|Tai wan),🇨🇳
 emoji=(安道尔|Andorra),🇦🇩
 emoji=(阿联酋|迪拜|阿布扎比|阿拉伯联合酋长国|Dubai|AE|United Arab Emirates),🇦🇪
 emoji=(阿富汗|Afghanistan),🇦🇫
