@@ -18,7 +18,6 @@ custom_proxy_group=⚡ Auto`url-test`.*`http://www.gstatic.com/generate_204`300
 custom_proxy_group=🔮 Load Balance`load-balance`.*`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=🎈 Final`select`[]☁️ Proxy`[]DIRECT
 
-
 enable_rule_generator=true
 overwrite_original_rules=true
 add_emoji=true
@@ -35,6 +34,7 @@ emoji=(香港|亚服游戏|亚服防失联|中港|深港IEPL|深港专线 ⁴ˣ|
 emoji=(美[国國]|广美|美西|华盛顿|波特兰|达拉斯|俄勒冈|凤凰城|菲尼克斯|费利蒙|弗里蒙特|硅谷|旧金山|弗吉尼亚|拉斯维加斯|洛杉|圣何塞|圣荷西|圣塔?克拉拉|西雅图|芝加哥|哥伦布|纽约|阿什本|丹佛|加利福尼亚|us|UNITED STATES|SEA|EWR|Newark|SJC|LAX|CMH|SANJOSE|Washington|Portland|Dallas|Oregon|Phoenix|Fremont|Valley|Francisco|Vegas|Los[^a-z]*Angeles|San[^a-z]*Jose|Santa[^a-z]*Clara|Seattle|Chicago|Columbus|York|Ashburn|US|UNITEDSTATES|United States),🇺🇲
 emoji=(日本|日-本|东京|大阪|埼玉|名古屋|沪日|日服|广日|杭日|京日|JP|jp|TOKYO|Tokyo|Osaka|Fukuoka|Nagoya|JAPAN|KIX|Saitama|Japan),🇯🇵
 emoji=(台湾|台灣|台北|台中|新北|彰化|深港专线转台湾|冀台|沪台|浙台|深台|湘台|珠台|苏台|闽台|广台|回国|Taipei|Kaohsiung|TW|TPE|Taiwan|TAIPEI|TAIWAN|Tai Wan|Tai wan),🇨🇳
+emoji=(韩国|韩|韓|首尔|KR|KOR|kr|CHUNCHEON|春川|大版|Seoul|ICN|Chuncheon|Korea),🇰🇷
 emoji=(安道尔|Andorra),🇦🇩
 emoji=(阿联酋|迪拜|阿布扎比|阿拉伯联合酋长国|Dubai|AE|United Arab Emirates),🇦🇪
 emoji=(阿富汗|Afghanistan),🇦🇫
@@ -101,7 +101,6 @@ emoji=(吉尔吉斯斯坦|Kyrgyzstan),🇰🇬
 emoji=(柬埔寨|金边|Kampuchea|Cambodia),🇰🇭
 emoji=(开曼群岛|Cayman Islands),🇰🇾
 emoji=(科索沃|Kosovo),🇽🇰
-emoji=(韩国|韩|韓|首尔|KR|KOR|kr|CHUNCHEON|春川|大版|Seoul|ICN|Chuncheon|Korea),🇰🇷
 emoji=(哈萨克斯坦|哈薩克斯坦|努尔苏丹|KZ|Kazakhstan),🇰🇿
 emoji=(老挝|Laos),🇱🇦
 emoji=(列支敦士登|Liechtenste),🇱🇮
