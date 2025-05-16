@@ -27,7 +27,7 @@ clash_use_new_field_name=true
 write_managed_config=flase
 udp_flag=false
 
-exclude_remarks=(续费|重置|推广|佣金|IPV6接入|TG群|到期|Update|Traffic|更新订阅|更新一次订阅|不一定|勒索|通告|均为二手倒卖|重大漏洞|公告|已恢复|炸了|Expire|时间|Panel|用户群|学术|登录|面板|计划|全局代理|剩余流量|节点速度|充值)
+exclude_remarks=(续费|重置|推广|佣金|IPV6接入|TG群|到期|Update|Traffic|更新订阅|更新一次订阅|不一定|勒索|通告|均为二手倒卖|重大漏洞|公告|已恢复|炸了|Expire|Panel|用户群|学术|登录|面板|计划|全局代理|剩余流量|节点速度|充值)
 
 emoji=(新加坡|[狮獅]城|新坡|广新|浙新|杨新|安新|海新|新城|SG|sg|SINGAPORE|Singapore),🇸🇬
 emoji=(香港|亚服游戏|亚服防失联|中港|深港IEPL|深港专线 ⁴ˣ|广港|莞港|海港|苏港|湘港|杨港|安港|永久虚通路连接|港鱼蛋粉|港鸡蛋仔|AnyPath®|HK|hk|HONG KONG|Hong Kong|HONGKONG|Hongkong|HongKong),🇭🇰
