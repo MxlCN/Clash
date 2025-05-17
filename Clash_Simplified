@@ -1,6 +1,6 @@
-ruleset=☁️ Proxy,[]DOMAIN-SUFFIX,xn--ngstr-lra8j.com
-ruleset=☁️ Proxy,[]DOMAIN-SUFFIX,services.googleapis.cn
-ruleset=☁️ Proxy,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleCNProxyIP.list
+ruleset=☁️ 代理选择,[]DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+ruleset=☁️ 代理选择,[]DOMAIN-SUFFIX,services.googleapis.cn
+ruleset=☁️ 代理选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleCNProxyIP.list
 ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
 ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
 ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
@@ -10,18 +10,18 @@ ruleset=REJECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ba
 ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
 ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
 ruleset=DIRECT,[]GEOIP,CN,no-resolve
-ruleset=🎈 Final,[]FINAL
+ruleset=🎈 其余流量,[]FINAL
 
-custom_proxy_group=☁️ Proxy`select`[]🔮 Load Balance`[]⚡ Auto`[]✏️ Select`[]🇭🇰 Hong Kong`[]🇨🇳 Taiwan`[]🇸🇬 Singapore`[]🇯🇵 Japan`[]🇺🇸 United States`
-custom_proxy_group=✏️ Select`select`.*
-custom_proxy_group=🇭🇰 Hong Kong`url-test`(🇭🇰)`http://www.gstatic.com/generate_204`300,,50
-custom_proxy_group=🇨🇳 Taiwan`url-test`(🇨🇳)`http://www.gstatic.com/generate_204`300,,50
-custom_proxy_group=🇸🇬 Singapore`url-test`(🇸🇬)`http://www.gstatic.com/generate_204`300,,50
-custom_proxy_group=🇯🇵 Japan`url-test`(🇯🇵)`http://www.gstatic.com/generate_204`300,,50
-custom_proxy_group=🇺🇸 United States`url-test`(🇺🇸)`http://www.gstatic.com/generate_204`300,,100
-custom_proxy_group=⚡ Auto`url-test`.*`http://www.gstatic.com/generate_204`300
-custom_proxy_group=🔮 Load Balance`load-balance`(🇭🇰)`http://www.gstatic.com/generate_204`300,,50
-custom_proxy_group=🎈 Final`select`[]☁️ Proxy`[]DIRECT
+custom_proxy_group=☁️ 代理选择`select`[]🔮 负载均衡`[]⚡ 延迟最低`[]✏️ 手动选择`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇺🇸 美国节点`
+custom_proxy_group=✏️ 手动选择`select`.*
+custom_proxy_group=🇭🇰 香港节点`url-test`(🇭🇰)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇨🇳 台湾节点`url-test`(🇨🇳)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇸🇬 狮城节点`url-test`(🇸🇬)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇯🇵 日本节点`url-test`(🇯🇵)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇺🇸 美国节点`url-test`(🇺🇸)`http://www.gstatic.com/generate_204`300,,100
+custom_proxy_group=⚡ 延迟最低`url-test`.*`http://www.gstatic.com/generate_204`300
+custom_proxy_group=🔮 负载均衡`load-balance`(🇭🇰)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🎈 其余流量`select`[]☁️ 代理选择`[]DIRECT
 
 enable_rule_generator=true
 overwrite_original_rules=true
@@ -34,10 +34,11 @@ udp_flag=false
 
 exclude_remarks=(续费|重置|推广|佣金|IPV6接入|TG群|到期|Update|Traffic|更新订阅|更新一次订阅|不一定|勒索|通告|均为二手倒卖|重大漏洞|公告|已恢复|炸了|Expire|Panel|用户群|学术|登录|面板|计划|全局代理|剩余流量|节点速度|充值)
 
+emoji=(Channel|Website),⚫︎
 emoji=(新加坡|[狮獅]城|新坡|广新|浙新|杨新|安新|海新|新城|SG|sg|SINGAPORE|Singapore),🇸🇬
 emoji=(香港|亚服游戏|亚服防失联|中港|深港IEPL|深港专线 ⁴ˣ|广港|莞港|海港|苏港|湘港|杨港|安港|永久虚通路连接|港鱼蛋粉|港鸡蛋仔|AnyPath®|HK|hk|HONG KONG|Hong Kong|HONGKONG|Hongkong|HongKong),🇭🇰
 emoji=(台湾|台灣|台北|台中|新北|彰化|深港专线转台湾|冀台|沪台|浙台|深台|湘台|珠台|苏台|闽台|广台|回国|Taipei|Kaohsiung|TW|TPE|Taiwan|TAIPEI|TAIWAN|Tai Wan|Tai wan),🇨🇳
-emoji=(美[国國]|广美|美西|华盛顿|波特兰|达拉斯|俄勒冈|凤凰城|菲尼克斯|费利蒙|弗里蒙特|硅谷|旧金山|弗吉尼亚|拉斯维加斯|洛杉|圣何塞|圣荷西|圣塔?克拉拉|西雅图|芝加哥|哥伦布|纽约|阿什本|丹佛|加利福尼亚|us|UNITED STATES|SEA|EWR|Newark|SJC|LAX|CMH|SANJOSE|Washington|Portland|Dallas|Oregon|Phoenix|Fremont|Valley|Francisco|Vegas|Los[^a-z]*Angeles|San[^a-z]*Jose|Santa[^a-z]*Clara|Seattle|Chicago|Columbus|York|Ashburn|US|UNITEDSTATES|United States),🇺🇸
+emoji=(美[国國]|广美|美西|华盛顿|波特兰|达拉斯|俄勒冈|凤凰城|菲尼克斯|费利蒙|弗里蒙特|硅谷|旧金山|弗吉尼亚|拉斯维加斯|洛杉|圣何塞|圣荷西|圣塔?克拉拉|西雅图|芝加哥|哥伦布|纽约|阿什本|丹佛|加利福尼亚|us|UNITED STATES|SEA|EWR|Newark|SJC|LAX|CMH|SANJOSE|Washington|Portland|Dallas|Oregon|Phoenix|Fremont|Valley|Francisco|Vegas|Los[^a-z]*Angeles|San[^a-z]*Jose|Santa[^a-z]*Clara|Seattle|Chicago|Columbus|York|America|Ashburn|US|UNITEDSTATES|United States),🇺🇸
 emoji=(日本|日-本|东京|大阪|埼玉|名古屋|沪日|日服|广日|杭日|京日|JP|jp|TOKYO|Tokyo|Osaka|Fukuoka|Nagoya|JAPAN|KIX|Saitama|Japan),🇯🇵
 emoji=(韩国|韩|韓|首尔|KR|KOR|CHUNCHEON|春川|大版|Seoul|ICN|Chuncheon|Korea),🇰🇷
 emoji=(安道尔|Andorra),🇦🇩
