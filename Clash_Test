@@ -1,6 +1,6 @@
-ruleset=☁️ Proxy,[]DOMAIN-SUFFIX,xn--ngstr-lra8j.com
-ruleset=☁️ Proxy,[]DOMAIN-SUFFIX,services.googleapis.cn
-ruleset=☁️ Proxy,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleCNProxyIP.list
+ruleset=☁️ 𝐏𝐫𝐨𝐱𝐲,[]DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+ruleset=☁️ 𝐏𝐫𝐨𝐱𝐲,[]DOMAIN-SUFFIX,services.googleapis.cn
+ruleset=☁️ 𝐏𝐫𝐨𝐱𝐲,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleCNProxyIP.list
 ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
 ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
 ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
@@ -10,18 +10,18 @@ ruleset=REJECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ba
 ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
 ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
 ruleset=DIRECT,[]GEOIP,CN,no-resolve
-ruleset=🎈 Final,[]FINAL
+ruleset=🎈 𝐅𝐢𝐧𝐚𝐥,[]FINAL
 
-custom_proxy_group=☁️ Proxy`select`[]🔮 Load Balance`[]⚡ Auto`[]✏️ Select`[]🇭🇰 𝐇𝐨𝐧𝐠 𝐊𝐨𝐧𝐠`[]🇨🇳 𝐓𝐚𝐢𝐰𝐚𝐧`[]🇸🇬 𝐒𝐢𝐧𝐠𝐚𝐩𝐨𝐫𝐞`[]🇯🇵 𝐉𝐚𝐩𝐚𝐧`[]🇺🇸 𝐔𝐧𝐢𝐭𝐞𝐝 𝐒𝐭𝐚𝐭𝐞𝐬`
-custom_proxy_group=✏️ Select`select`.*
+custom_proxy_group=☁️ 𝐏𝐫𝐨𝐱𝐲`select`[]🔮 𝐋𝐨𝐚𝐝 𝐁𝐚𝐥𝐚𝐧𝐜𝐞`[]⚡ 𝐀𝐮𝐭𝐨`[]✏️ 𝐒𝐞𝐥𝐞𝐜𝐭`[]🇭🇰 𝐇𝐨𝐧𝐠 𝐊𝐨𝐧𝐠`[]🇨🇳 𝐓𝐚𝐢𝐰𝐚𝐧`[]🇸🇬 𝐒𝐢𝐧𝐠𝐚𝐩𝐨𝐫𝐞`[]🇯🇵 𝐉𝐚𝐩𝐚𝐧`[]🇺🇸 𝐔𝐧𝐢𝐭𝐞𝐝 𝐒𝐭𝐚𝐭𝐞𝐬`
+custom_proxy_group=✏️ 𝐒𝐞𝐥𝐞𝐜𝐭`select`.*
 custom_proxy_group=🇭🇰 𝐇𝐨𝐧𝐠 𝐊𝐨𝐧𝐠`url-test`(🇭🇰)`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=🇨🇳 𝐓𝐚𝐢𝐰𝐚𝐧`url-test`(🇨🇳)`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=🇸🇬 𝐒𝐢𝐧𝐠𝐚𝐩𝐨𝐫𝐞`url-test`(🇸🇬)`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=🇯🇵 𝐉𝐚𝐩𝐚𝐧`url-test`(🇯🇵)`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=🇺🇸 𝐔𝐧𝐢𝐭𝐞𝐝 𝐒𝐭𝐚𝐭𝐞𝐬`url-test`(🇺🇸)`http://www.gstatic.com/generate_204`300,,100
-custom_proxy_group=⚡ Auto`url-test`.*`http://www.gstatic.com/generate_204`300
-custom_proxy_group=🔮 Load Balance`load-balance`(🇭🇰)`http://www.gstatic.com/generate_204`300,,50
-custom_proxy_group=🎈 Final`select`[]☁️ Proxy`[]DIRECT
+custom_proxy_group=⚡ 𝐀𝐮𝐭𝐨`url-test`.*`http://www.gstatic.com/generate_204`300
+custom_proxy_group=🔮 𝐋𝐨𝐚𝐝 𝐁𝐚𝐥𝐚𝐧𝐜𝐞`load-balance`(🇭🇰)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🎈 𝐅𝐢𝐧𝐚𝐥`select`[]☁️ 𝐏𝐫𝐨𝐱𝐲`[]DIRECT
 
 enable_rule_generator=true
 overwrite_original_rules=true
