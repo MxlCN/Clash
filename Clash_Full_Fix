@@ -57,7 +57,7 @@ exclude_remarks=(永久跳转|防失联网址|套餐时间|群组|全部线路|�
 
 emoji=(Channel|Website|Source),⚫︎
 rename=.*(澳大利亚|澳洲|悉尼|墨尔本|AU|Australia|Sydney|🇦🇺).*@🇦🇺 澳大利亚 | AUS
-rename=.*(沙特阿拉伯|沙特|SA|Saudi Arabia|🇸🇦).*@🇸🇦 沙特阿拉伯 | SAU
+rename=.*(沙特阿拉伯|沙特|Saudi Arabia|🇸🇦).*@🇸🇦 沙特阿拉伯 | SAU
 rename=.*(新加坡|[狮獅]城|新坡|广新|浙新|杨新|安新|海新|新城|SG|sg|SINGAPORE|Singapore|🇸🇬).*@🇸🇬 新加坡 | SGP
 rename=.*(香港|亚服游戏|亚服防失联|中港|深港IEPL|深港专线 ⁴ˣ|广港|莞港|海港|苏港|湘港|杨港|安港|永久虚通路连接|港鱼蛋粉|港鸡蛋仔|AnyPath®|HK|hk|HONG KONG|Hong Kong|HONGKONG|Hongkong|HongKong|🇭🇰).*@🇭🇰 香港 | HKG
 rename=.*(韩国|韩|韓|首尔|首爾|KR|KOR|CHUNCHEON|春川|大版|Seoul|ICN|Chuncheon|Korea|🇰🇷).*@🇰🇷 韩国 | KOR
