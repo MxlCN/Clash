@@ -53,7 +53,7 @@ clash_use_new_field_name=true
 write_managed_config=false
 udp_flag=false
 
-exclude_remarks=(永久跳转|防失联网址|套餐时间|群组|全部线路|使用说明|用户群|国内|禁止|邮箱|网站|客服|续费|重置|推广|佣金|IPV6接入|TG群|到期|过期|Update|Traffic|更新订阅|更新一次订阅|不一定|勒索|通告|均为二手倒卖|重大漏洞|公告|已恢复|炸了|Expire|Panel|用户群|学术|面板|计划|全局代理|剩余流量|节点速度|充值|距离下次重置剩余|官网)
+exclude_remarks=(永久跳转|防失联网址|套餐时间|群组|全部线路|使用说明|用户群|国内|禁止|邮箱|网站|客服|续费|重置|推广|佣金|IPV6接入|TG群|到期|过期|Update|Traffic|更新订阅|更新一次订阅|不一定|勒索|通告|均为二手倒卖|重大漏洞|公告|已恢复|炸了|Expire|Panel|用户群|学术|面板|计划|全局代理|剩余流量|节点速度|充值|距离下次重置剩余)
 
 emoji=(Channel|Website|Source),⚫︎
 rename=.*(美[国國]|广美|美西|华盛顿|波特兰|达拉斯|俄勒冈|凤凰城|菲尼克斯|费利蒙|弗里蒙特|硅谷|矽谷|旧金山|弗吉尼亚|拉斯维加斯|洛杉|圣何塞|圣荷西|聖荷西|圣塔?克拉拉|西雅图|芝加哥|哥伦布|纽约|阿什本|丹佛|加利福尼亚|亚特兰大|us|UNITED STATES|EWR|Newark|SJC|LAX|SEA|CMH|SANJOSE|Washington|Portland|Dallas|Oregon|Phoenix|Fremont|Valley|Francisco|Vegas|Los[^a-z]*Angeles|San[^a-z]*Jose|Santa[^a-z]*Clara|Seattle|Chicago|Columbus|York|America|Ashburn|US|UnitedStates|UNITEDSTATES|United States|🇺🇲|🇺🇸).*@🇺🇸 美国 | USA
