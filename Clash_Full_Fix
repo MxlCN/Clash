@@ -46,7 +46,7 @@ custom_proxy_group=🎈 其余流量`select`[]☁️ 代理选择`[]DIRECT
 
 enable_rule_generator=true
 overwrite_original_rules=true
-add_emoji=true
+add_emoji=false
 remove_old_emoji=true
 skip_cert_verify_flag=true
 clash_use_new_field_name=true
